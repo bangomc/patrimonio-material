@@ -1,0 +1,10 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.formulario > * {
+    width: 100%;
+}

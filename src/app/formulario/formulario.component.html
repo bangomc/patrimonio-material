@@ -1,0 +1,11 @@
+<form #frm="ngForm" (ngSubmit)="adicionar(frm)">
+  <div class="formulario">
+    <mat-form-field>
+      <input matInput placeholder="Etiqueta" name="etiqueta" ngModel>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Descrição" name="descricao" ngModel>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="adicionar(frm)">Adicionar</button>
+  </div>
+</form>
